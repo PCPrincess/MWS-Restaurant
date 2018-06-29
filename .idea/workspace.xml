@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e2b94e-538d-487f-9154-c04a07751120" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/js/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,35 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestReviewsStage1.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/RestReviewsStage1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sw.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/sw.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,11 +45,13 @@
         <option value="$PROJECT_DIR$/js/dbhelper.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/js/restaurant_info.js" />
-        <option value="$PROJECT_DIR$/restaurant.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/service-worker.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/register.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/restaurant.html" />
+        <option value="$PROJECT_DIR$/js/sw.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/RestReviewsStage1.txt" />
       </list>
     </option>
@@ -100,9 +77,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1055" />
-    <option name="y" value="50" />
-    <option name="width" value="871" />
+    <option name="x" value="1046" />
+    <option name="y" value="46" />
+    <option name="width" value="878" />
     <option name="height" value="988" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -111,18 +88,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MWS-Restaurant" type="b2602c69:ProjectViewProjectNode" />
               <item name="MWS-Restaurant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MWS-Restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MWS-Restaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MWS-Restaurant" type="b2602c69:ProjectViewProjectNode" />
@@ -137,6 +108,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +116,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wittr/public/js/main/views/Posts.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -196,7 +168,8 @@
       <workItem from="1529984824355" duration="679000" />
       <workItem from="1530032164073" duration="8494000" />
       <workItem from="1530043232364" duration="2575000" />
-      <workItem from="1530238335714" duration="1090000" />
+      <workItem from="1530238335714" duration="1273000" />
+      <workItem from="1530287435704" duration="5241000" />
     </task>
     <task id="LOCAL-00001" summary="Pre-Test Changes: Grunt, CSS, SW, JS-Images">
       <created>1529858707066</created>
@@ -240,36 +213,42 @@
       <option name="project" value="LOCAL" />
       <updated>1530041033612</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="service-worker.js changed to: sw.js&#10;index.html script tag src updated as well">
+      <created>1530239813925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530239813925</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63856000" />
+    <option name="totallyTimeSpent" value="69280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1055" y="50" width="871" height="988" extended-state="0" />
-    <editor active="true" />
+    <frame x="1046" y="46" width="878" height="988" extended-state="0" />
     <layout>
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24642856" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25634825" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32889965" />
       <window_info anchor="bottom" id="Floobits" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22732769" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010804" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22732769" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32889965" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,51 +264,10 @@
     <MESSAGE value="Pre-Service-Worker Commit" />
     <MESSAGE value="Post-Service-Worker Commit" />
     <MESSAGE value="Small Changes to service-worker.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small Changes to service-worker.js" />
+    <MESSAGE value="service-worker.js changed to: sw.js&#10;index.html script tag src updated as well" />
+    <option name="LAST_COMMIT_MESSAGE" value="service-worker.js changed to: sw.js&#10;index.html script tag src updated as well" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/RestReviewsStage1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="141" column="2" selection-start-line="141" selection-start-column="2" selection-end-line="141" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4539">
-          <caret line="267" column="25" selection-start-line="267" selection-start-column="25" selection-end-line="267" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/sw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -470,9 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/CSSPlayground.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/CSSPlayground.txt" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Resources-Information.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -481,9 +417,7 @@
         <state relative-caret-position="-2550" />
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/BluePrints.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/BluePrints.txt" />
     <entry file="file://$PROJECT_DIR$/../wittr/public/js/sw/index.js" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/MWS_11-15_Scratch.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -527,13 +461,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/BlogProject.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/BlogProject.txt" />
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -553,13 +481,6 @@
         <state relative-caret-position="-59161" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dbhelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="165" column="6" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/restaurants.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3723" />
@@ -572,22 +493,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -596,24 +503,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/../../wittr/public/js/sw/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="-238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wittr/public/js/idb-test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wittr/public/js/main/IndexController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sw.js">
+    <entry file="file://$PROJECT_DIR$/../../wittr/public/js/main/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../wittr/public/js/main/views/Posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="-510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dbhelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="165" column="6" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/RestReviewsStage1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="62" column="86" selection-start-line="62" selection-start-column="86" selection-end-line="62" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
         </state>
       </provider>
     </entry>

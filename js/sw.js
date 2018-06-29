@@ -1,21 +1,19 @@
 let staticCache = 'restaurant-static';
 let imagesCache = 'restaurant-images';
-let allCaches = [
-  staticCache,
-  imagesCache
-];
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
       caches.open(staticCache).then(function(cache) {
         return cache.addAll([
-          '/skeleton',
+          '/',
           'index.html*',
           'restaurant.html',
+          '/js',
           'js/main.js',
           'js/dbhelper.js',
           'js/restaurant_info.js',
-          'js/service-worker.js',
+          'js/register.js',
+          'data/restaurants.json',
           'css/styles.css',
           'css/normalize.css',
           'css/font-awesome.css'
@@ -24,57 +22,37 @@ self.addEventListener('install', function(event) {
   );
 });
 
-self.addEventListener('activate', function(event) {
-  event.waitUntil(
-      caches.keys().then(function(cacheNames) {
-        return Promise.all(
-            cacheNames.filter(function(cacheName) {
-              return cacheName.startsWith('restaurant-') &&
-                  !allCaches.includes(cacheName);
-            }).map(function(cacheName) {
-              return caches.delete(cacheName);
-            })
-        );
-      })
-  );
-});
-
 self.addEventListener('fetch', function(event) {
-  var requestUrl = new URL(event.request.url);
-
-  if (requestUrl.origin === location.origin) {
-    if (requestUrl.pathname === '/') {
-      event.respondWith(caches.match('/skeleton'));
-      return;
-    }
-    if (requestUrl.pathname.startsWith('/img/')) {
-      event.respondWith(serveImg(event.request));
-      return;
-    }
+  let requestUrl = new URL(event.request.url);
+  let fetcher = event.request;
+  if (requestUrl.indexOf("restaurant.html") > -1) {
+    const urlExist = "restaurant.html";
+    fetcher = new Request(urlExist);
+  }
+  if (requestUrl.hostname !== "localhost") {
+    event.request.mode = "no-cors";
   }
 
   event.respondWith(
-      caches.match(event.request).then(function(response) {
-        return response || fetch(event.request);
+      caches.match(fetcher).then(function(response) {
+        return response || fetch(event.request)
+            .then(resp => {
+              return caches.open(staticCache)
+                  .then(cache => {
+                    cache.put(event.request, resp.clone());
+                    return resp;
+                  });
+            })
+            .catch(error => {
+              return new Response("Possible Loss of Connectivity", {
+                status: 404,
+                statusText: "You are not connected to the internet - try refreshing or check your settings"
+              });
+            })
       })
   );
 });
 
-
-function serveImg(request) {
-  let storageUrl = request.url.replace(/-\d+px\.jpg$/, '');
-
-  return caches.open(imagesCache).then(function(cache) {
-    return cache.match(storageUrl).then(function(response) {
-      if (response) return response;
-
-      return fetch(request).then(function(networkResponse) {
-        cache.put(storageUrl, networkResponse.clone());
-        return networkResponse;
-      });
-    });
-  });
-}
 
 self.addEventListener('message', function(event) {
   if (event.data.action === 'skipWaiting') {
